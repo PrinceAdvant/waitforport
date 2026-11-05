@@ -1,0 +1,13 @@
+[package]
+name = "waitforport"
+version = "0.1.0"
+edition = "2021"
+description = "Wait until a TCP host:port accepts connections. Useful before starting or health-checking self-hosted apps."
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/PrinceAdvant/waitforport"
+homepage = "https://peon.sh"
+keywords = ["tcp", "wait", "healthcheck", "deploy", "docker"]
+categories = ["command-line-utilities", "network-programming"]
+
+[dependencies]
